@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="resources.Listeners"/>
+</listeners>
+  <test  name="Verify Amazon">
+    <classes>
+      <class name="com.console.automation.AppiumTestNGFramework.Category"/>
+      <class name="com.console.automation.AppiumTestNGFramework.PDP"/>
+      </classes>
+  </test>
+</suite> <!-- Suite -->
